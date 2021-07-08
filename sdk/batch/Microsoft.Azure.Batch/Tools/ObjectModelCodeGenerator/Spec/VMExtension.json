@@ -106,39 +106,6 @@
         "UnboundAccess": "read,write"
       },
       "Value": null
-    },
-    {
-      "Key": {
-        "Type": "NodePlacementConfiguration",
-        "Name": "ProvisionAfterExtensions",
-        "SummaryComment": "The node placement configuration for the pool.",
-        "RemarksComment": "This configuration will specify rules on how nodes in the pool will be physically allocated.",
-        "BoundAccess": "read,write",
-        "UnboundAccess": "read,write"
-      },
-      "Value": null
-    },
-    {
-      "Key": {
-        "Type": "IList<VMExtension>",
-        "Name": "Extensions",
-        "SummaryComment": "The virtual machine extension for the pool.",
-        "RemarksComment": "If specified, the extensions mentioned in this configuration will be installed on each node.",
-        "BoundAccess": "read,write",
-        "UnboundAccess": "read,write"
-      },
-      "Value": null
-    },
-    {
-      "Key": {
-        "Type": "OSDisk",
-        "Name": "OSDisk",
-        "SummaryComment": "Settings for the operating system disk of the Virtual Machine.",
-        "RemarksComment": null
-        "BoundAccess": "read,write",
-        "UnboundAccess": "read,write"
-      },
-      "Value": null
     }
   ]
 }
